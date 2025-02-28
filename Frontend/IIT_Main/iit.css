@@ -1,0 +1,480 @@
+.iit h2{
+  font-size: 90px;
+}
+.iit{
+  display: flex;
+}
+.iit img{
+  width: 800px;
+}
+.iit-heading{
+  width: 60%;
+  margin-left: 40%;
+  margin-top: -27%;
+  font-size: 35px;
+  margin-bottom: 8%;
+}
+.row12 {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr); 
+     gap: 1%; 
+    margin-left: 2%;
+  
+  
+   }
+
+
+   #searchBox34{
+    background-color: #2d1e17;
+    color: #886657;
+    margin-left: -2000px;
+    width:80%;
+    height: auto;
+    padding-bottom: 15px;
+    margin-bottom: 5%;
+    border-radius: 20px;
+  
+   }
+
+
+
+
+  .btn2{
+    background-color:#6e6059;
+    color: #2d1e17;
+    height: 45%;
+    margin-bottom: 10%;
+    width:10%;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 2%;
+  }
+   .btn2:hover{
+    background-color:#2d1e17;
+    color: #6e6059;
+   
+  }
+  
+   .imp-iit{
+    display: none;
+   margin-top: -3%;
+    height: max-content;
+   } 
+
+
+   .Thumbnail{
+     width: 580px;
+     background-color: #796254;
+     border-radius: 15%;
+   
+   }
+   .Thumbnail img{
+     width: 240px;
+  
+     padding: 12%;
+   }
+   
+.iit2{
+  display: flex;
+}
+.iit2 ul{
+font-size: 35px;
+width: 55%;
+}
+ 
+ .search{
+ 
+  width:45%;
+  margin-bottom: 6%;
+  margin-left: 29%;
+  color: beige;
+  text-align: center;
+  
+ }
+ .locmap {
+  position: relative;
+  width: 322px;
+  margin: 10px;
+}
+
+.thumbinner {
+  position: relative;
+  width: 320px;
+
+}
+
+.thumbinner img {
+  width: 100%;
+  height: auto;
+}
+
+.od {
+  position: absolute;
+
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+}
+
+.od .id {
+  position: absolute;
+  left: -4px;
+  top: -4px;
+}
+
+.od .pv, .od .pr {
+  position: absolute;
+  font-size: 12px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+
+.od .pv {
+  top: 5px;
+  left: -3em;
+}
+
+.od .pr {
+  top: 5px;
+  right: -3em;
+}
+
+.od .pl {
+  position: absolute;
+  font-size: 12px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  width: 6em;
+  right: 5px;
+}
+
+.od .pr {
+  width: 6em;
+  left: 5px;
+}
+
+.notpageimage {
+  display: inline-block;
+}
+
+.notpageimage img {
+  border-radius: 50%;
+}
+
+.mw-file-description {
+  text-decoration: none;
+}
+
+.mw-file-description:hover {
+  opacity: 0.8;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+.more{
+  position: relative;
+  padding: 10px 22px;
+  border-radius: 6px;
+
+ 
+  cursor: pointer;
+  
+  transition: all 0.2s ease;
+  background-color: #2d1e17;
+  color:beige;
+  width:300px;
+  height:80px;
+  margin-left:5%;
+  margin-bottom: 3%;
+  z-index: 100; 
+  overflow: visible;
+}
+
+
+
+.more:active {
+  transform: scale(0.96);
+}
+.more:before,
+.more:after {
+  position: absolute;
+  content: "";
+  width: 150%;
+  left: 50%;
+  height: 100%;
+  transform: translateX(-50%);
+ 
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+.more.animate::before {
+  top: -70%;
+  background-image: radial-gradient(circle, #352011 20%, transparent 20%),
+    radial-gradient(circle, transparent 20%, #352011 20%, transparent 30%),
+    radial-gradient(circle, #352011 20%, transparent 20%),
+    radial-gradient(circle, #352011 20%, transparent 20%),
+    radial-gradient(circle, transparent 10%, #352011 15%, transparent 20%),
+    radial-gradient(circle, #352011 20%, transparent 20%),
+    radial-gradient(circle, #352011 20%, transparent 20%),
+    radial-gradient(circle, #352011 20%, transparent 20%),
+    radial-gradient(circle, #352011 20%, transparent 20%);
+  background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%,
+    10% 10%, 18% 18%;
+  animation: greentopBubbles ease-in-out 0.6s forwards infinite;
+}
+@keyframes greentopBubbles {
+  0% {
+    background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%,
+      40% 90%, 55% 90%, 70% 90%;
+  }
+  50% {
+    background-position: 0% 80%, 0% 20%, 10% 40%, 20% 0%, 30% 30%, 22% 50%,
+      50% 50%, 65% 20%, 90% 30%;
+  }
+  100% {
+    background-position: 0% 70%, 0% 10%, 10% 30%, 20% -10%, 30% 20%, 22% 40%,
+      50% 40%, 65% 10%, 90% 20%;
+    background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+  }
+}
+.more.animate::after {
+  bottom: -70%;
+  background-image: radial-gradient(circle, #352011 20%, transparent 20%),
+    radial-gradient(circle, #352011 20%, transparent 20%),
+    radial-gradient(circle, transparent 10%, #352011 15%, transparent 20%),
+    radial-gradient(circle, #352011 20%, transparent 20%),
+    radial-gradient(circle, #352011 20%, transparent 20%),
+    radial-gradient(circle, #352011 20%, transparent 20%),
+    radial-gradient(circle, #352011 20%, transparent 20%);
+  background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 20% 20%, 18% 18%;
+  animation: greenbottomBubbles ease-in-out 0.6s forwards infinite;
+}
+@keyframes greenbottomBubbles {
+  0% {
+    background-position: 10% -10%, 30% 10%, 55% -10%, 70% -10%, 85% -10%,
+      70% -10%, 70% 0%;
+  }
+  50% {
+    background-position: 0% 80%, 20% 80%, 45% 60%, 60% 100%, 75% 70%, 95% 60%,
+      105% 0%;
+  }
+  100% {
+    background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%,
+      110% 10%;
+    background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+  }
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 414px){
+  .iit h2{
+    font-size: 30px;
+    margin-top: 20%;
+  }
+  .iit{
+    display: flex;
+  }
+  .iit img{
+    width: 200px;
+    margin-top: 13%;
+  }
+
+.iit2 img{
+  height: 300px;
+  margin-left: -68%;
+
+}
+
+  .iit-heading{
+    width: 80%;
+   margin-left: 5%;
+    margin-top: 10%;
+    font-size: 20px;
+    margin-bottom: 8%;
+  }
+
+
+
+  .row12 {
+       display: grid;
+       grid-template-columns: repeat(1, 1fr); 
+       gap: 1%; 
+      margin-left: 2%;
+      width:30%;
+    
+    
+     }
+  
+  
+     #searchBox{
+      background-color: #2d1e17;
+      color: #886657;
+      margin-left: 5%;
+      width:50%;
+      height: auto;
+      padding-bottom: 15px;
+      margin-bottom: 5%;
+      border-radius: 20px;
+      margin-top: 20%;
+    
+     }
+  
+    .btn2{
+      background-color:#6e6059;
+      color: #2d1e17;
+      height: 55px;
+      margin-bottom: 10%;
+      width:30%;
+      
+      border-radius: 20px;
+      border: none;
+  
+    }
+     .btn2:hover{
+      background-color:#2d1e17;
+      color: #6e6059;
+     
+    }
+    
+     .imp-iit{
+      display: none;
+     margin-top: -3%;
+      height: max-content;
+     } 
+  
+  
+     .Thumbnail{
+       width: 360px;
+       background-color: #796254;
+       border-radius: 13%;
+     
+     }
+     .Thumbnail img{
+       width: 240px;
+    
+       padding: 12%;
+     }
+
+  .iit2 ul{
+  font-size: 25px;
+ margin-left: 15%;
+  margin-top: 85%;
+  }
+
+   .search{
+   
+    width:45%;
+    margin-bottom: 6%;
+    margin-left: 29%;
+    color: beige;
+    text-align: center;
+    
+   }
+   @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+.more{
+  position: relative;
+  padding: 10px 22px;
+  border-radius: 6px;
+
+ 
+  cursor: pointer;
+  
+  transition: all 0.2s ease;
+  background-color: #2d1e17;
+  color:beige;
+  width:300px;
+  height:80px;
+  margin-left:9%;
+  margin-bottom: 3%;
+  z-index: 100; 
+  overflow: visible;
+}
+
+
+
+.more:active {
+  transform: scale(0.96);
+}
+.more:before,
+.more:after {
+  position: absolute;
+  content: "";
+  width: 150%;
+  left: 50%;
+  height: 100%;
+  transform: translateX(-50%);
+ 
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+.more.animate::before {
+  top: -70%;
+  background-image: radial-gradient(circle, #352011 20%, transparent 20%),
+    radial-gradient(circle, transparent 20%, #352011 20%, transparent 30%),
+    radial-gradient(circle, #352011 20%, transparent 20%),
+    radial-gradient(circle, #352011 20%, transparent 20%),
+    radial-gradient(circle, transparent 10%, #352011 15%, transparent 20%),
+    radial-gradient(circle, #352011 20%, transparent 20%),
+    radial-gradient(circle, #352011 20%, transparent 20%),
+    radial-gradient(circle, #352011 20%, transparent 20%),
+    radial-gradient(circle, #352011 20%, transparent 20%);
+  background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%,
+    10% 10%, 18% 18%;
+  animation: greentopBubbles ease-in-out 0.6s forwards infinite;
+}
+@keyframes greentopBubbles {
+  0% {
+    background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%,
+      40% 90%, 55% 90%, 70% 90%;
+  }
+  50% {
+    background-position: 0% 80%, 0% 20%, 10% 40%, 20% 0%, 30% 30%, 22% 50%,
+      50% 50%, 65% 20%, 90% 30%;
+  }
+  100% {
+    background-position: 0% 70%, 0% 10%, 10% 30%, 20% -10%, 30% 20%, 22% 40%,
+      50% 40%, 65% 10%, 90% 20%;
+    background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+  }
+}
+.more.animate::after {
+  bottom: -70%;
+  background-image: radial-gradient(circle, #352011 20%, transparent 20%),
+    radial-gradient(circle, #352011 20%, transparent 20%),
+    radial-gradient(circle, transparent 10%, #352011 15%, transparent 20%),
+    radial-gradient(circle, #352011 20%, transparent 20%),
+    radial-gradient(circle, #352011 20%, transparent 20%),
+    radial-gradient(circle, #352011 20%, transparent 20%),
+    radial-gradient(circle, #352011 20%, transparent 20%);
+  background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 20% 20%, 18% 18%;
+  animation: greenbottomBubbles ease-in-out 0.6s forwards infinite;
+}
+@keyframes greenbottomBubbles {
+  0% {
+    background-position: 10% -10%, 30% 10%, 55% -10%, 70% -10%, 85% -10%,
+      70% -10%, 70% 0%;
+  }
+  50% {
+    background-position: 0% 80%, 20% 80%, 45% 60%, 60% 100%, 75% 70%, 95% 60%,
+      105% 0%;
+  }
+  100% {
+    background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%,
+      110% 10%;
+    background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+  }
+}
+
+
+}

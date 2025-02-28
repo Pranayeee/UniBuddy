@@ -1,0 +1,151 @@
+.col-md-6{
+     width: 85%;
+     margin-bottom: 2%;
+     margin-left: 8%;
+   
+} 
+.col-md-6:hover{
+     transform: scale(0.9);
+  
+}
+body{
+     background-color: rgba(255, 255, 255, 0.945);
+}
+#search-input{
+     
+     color: rgb(241, 241, 241);
+     width: 55%;
+     margin-top: 12%;
+     margin-left: 10%;
+}
+.nit-1{
+     display: flex;
+}
+
+#search-btn{
+     width:150px;
+     height: max-content;
+     margin-top: 12%;
+     margin-left: 1%;
+     background-color:  rgba(255, 255, 254, 0.945);
+     
+}
+#search-btn:hover{
+     width:150px;
+     height: max-content;
+     margin-top: 12%;
+     margin-left: 1%;
+     background-color:  rgba(91, 91, 91, 0.945);
+     color:rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+.nit-main123{
+     background-color: white;
+     margin-top: 5%;
+}
+.nit-main123 img{
+     margin-left: 1100px;
+     margin-top: -18%;
+     width: 750px;
+}
+.nit-main123 h2{
+     font-size: 100px;
+     font-style: Courier;
+}
+.nit-main123 p{
+     width: 60%;
+     font-size: 30px;
+     margin-left: 20px;
+     font-style: Courier;
+}
+.nit{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr); 
+     width: 99%;
+}
+
+
+
+@media only screen and (max-width: 414px) {
+     .col-md-6{
+          width: 85%;
+          margin-bottom: 3%;
+          margin-left: 7%;
+        
+     } 
+     .col-md-6:hover{
+          transform: scale(0.9);
+       
+     }
+     
+     #search-input{
+          
+          color: rgb(241, 241, 241);
+          width: 50%;
+          margin-top: 12%;
+          margin-left: 10%;
+     }
+     .nit-1{
+          display: flex;
+     }
+     
+     #search-btn{
+          width:fit-content;
+          height: 55px;
+          margin-top: 12%;
+          margin-left: 1%;
+          font-size: 20px;
+         
+          background-color:  rgba(255, 255, 254, 0.945);
+          
+     }
+     #search-btn:hover{
+          width: fit-content;
+          height: 55px;
+          margin-top: 12%;
+          margin-left: 1%;
+          background-color:  rgba(91, 91, 91, 0.945);
+          color:rgb(255, 255, 255);
+     }
+     
+     
+     
+     
+     
+     
+     
+     .nit-main123{
+          background-color: white;
+          margin-top: 5%;
+     }
+     .nit-main123 img{
+        display: none;
+     }
+     .nit-main123 h2{
+          font-size: 50px;
+          font-style: Courier;
+          width: 100%;
+          overflow: hidden;
+     }
+     .nit-main123 p{
+          width: 95%;
+          font-size: 17px;
+        
+          font-style: Courier;
+     }
+     .nit{
+          display: grid;
+          grid-template-columns: repeat(1, 1fr); 
+          width: 99%;
+     }
+     
+
+
+
+}

@@ -1,0 +1,259 @@
+.iim h1{
+     font-size: 100px;
+}
+.iim img{
+  margin-left: 68.5%;
+  margin-top: 2%;
+}
+.iim p{
+     width:70%;
+     margin-top: -30%;
+     font-size: 35px;
+     margin-left: 2%;
+}
+.iim2 ul li{
+     font-size: 39px;
+   
+     margin-left: 29%;
+
+}
+.album{
+     background-color: #f8f7f6;
+}
+#searchInput{
+     background-color: #ffffff;
+     color:#523f31;
+     width:900px;
+     margin-left: 17%;
+     border: 2px solid #523f31;
+}
+
+.card h2{
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 50px;
+     margin-left: 2%;
+}
+.col:hover{
+     transform: scale(1.1);
+
+}
+.card button{
+     background-color: #523f31;
+     color: #c5a085;
+     font-size: 30px;
+     margin-left: 5%;
+}
+.search-btn{
+     background-color: #523f31;
+     color: beige;
+     width: 120px;
+     height:5%;
+     margin-left: 2%;
+}
+.search-btn:hover{
+     color:#523f31;
+     background-color: white;
+}
+.iim2 ul{
+     margin-top: -40%;
+}
+.iim2{
+     margin-top: 10%;
+}
+.searchIIM{
+     margin-top: 10%;
+     display: flex;
+}
+
+.iim2 img{
+     width: 28%;
+}
+
+.iim-Main{
+     display: none;
+     
+     
+}
+
+#text{
+     font-size: 45px;
+     margin-top: 6%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.buttons .button{
+     position: relative;
+     display: inline-block;
+     color: #fff;
+     padding: 12px 38px;
+    cursor: pointer;
+     border-radius: 45px;
+     margin: 10px;
+     font-size: 30px;
+     font-weight: 850;
+     text-decoration: none;
+     box-shadow: 3px 5px rgba(0, 0, 0, 0.1);
+     border-top: 1px solid rgba(0,0,0,0.1);
+     overflow: hidden;
+   }
+   .buttons .button.two{
+     background: linear-gradient(90deg, #523f31, #c5a085);
+     margin-left: 55%;
+   }
+   .buttons .button .overlay{
+     position: absolute;
+     background: #fff;
+     top: 0;
+     left: 0;
+     transform: translate(-50%,-50%);
+     border-radius: 50%;
+     animation: blink 0.5s linear;
+   }
+   @keyframes blink {
+     0%{
+       height: 0px;
+       width: 0px;
+       opacity: 0.3;
+     }
+     100%{
+       height: 400px;
+       width: 400px;
+       opacity: 0;
+     }
+   }
+
+
+
+
+
+
+
+   
+@media only screen and (max-width: 414px){
+     .iim h1{
+          font-size: 60px;
+     }
+     .iim img{
+       margin-left:5%;
+       margin-top: 2%;
+       width:300px;
+     }
+
+
+     .iim p{
+          width:96%;
+          margin-top: -0.5%;
+          font-size: 17px;
+          margin-left: 2%;
+     }
+     .iim2 ul li{
+          font-size: 13px;
+        
+          margin-left: 29%;
+     
+     }
+   
+     #searchInput{
+          background-color: #ffffff;
+          color:#523f31;
+          width:200px;
+          margin-left: 4%;
+          border: 2px solid #523f31;
+     }
+     .card{
+          height:400px;
+     }
+     .card h2{
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          font-size: 25px;
+          margin-left: 2%;
+     }
+     .card p{
+          font-size: 12px;
+     }
+     .col:hover{
+          transform: scale(0.8);
+     
+     }
+     .card button{
+          background-color: #523f31;
+          color: #ede1d9;
+          font-size: 20px;
+          margin-left: 5%;
+     }
+     .search-btn{
+          background-color: #523f31;
+          color: beige;
+          width: 120px;
+          height:5%;
+          margin-left: 2%;
+     }
+     .search-btn:hover{
+          color:#523f31;
+          background-color: white;
+     }
+     .iim2 ul{
+          margin-top: -40%;
+     }
+     .iim2{
+          margin-top: 10%;
+     }
+     .searchIIM{
+          margin-top: 10%;
+          display: flex;
+     }
+     
+     .iim2 img{
+          width: 28%;
+     }
+     
+     .iim-Main{
+          display: none;
+          
+     }
+     
+   
+     .buttons .button{
+          position: relative;
+          display: inline-block;
+          color: #fff;
+          padding: 12px 38px;
+         cursor: pointer;
+          border-radius: 45px;
+          margin: 10px;
+          font-size: 20px;
+          font-weight: 550;
+          text-decoration: none;
+          box-shadow: 3px 5px rgba(0, 0, 0, 0.1);
+          border-top: 1px solid rgba(0,0,0,0.1);
+          overflow: hidden;
+        }
+        .buttons .button.two{
+          background: linear-gradient(90deg, #523f31, #c5a085);
+          margin-left: 26%;
+        }
+        .buttons .button .overlay{
+          position: absolute;
+          background: #fff;
+          top: 0;
+          left: 0;
+          transform: translate(-50%,-50%);
+          border-radius: 50%;
+          animation: blink 0.5s linear;
+        }
+        @keyframes blink {
+          0%{
+            height: 0px;
+            width: 0px;
+            opacity: 0.3;
+          }
+          100%{
+            height: 400px;
+            width: 400px;
+            opacity: 0;
+          }
+        }
+     
+     
+     
+}

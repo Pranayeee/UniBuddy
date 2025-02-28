@@ -1,0 +1,170 @@
+.table1{
+     width: 80%;
+     margin-left: 10%;
+}
+#mb4{
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-size: 80px;
+ margin-left: 25%;
+
+ 
+}
+
+.cdcms_section2 p{
+     font-size: 40px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     width: 70%;
+     margin-left: 25%;
+     margin-top: -34%;
+}
+.cdcms_section2 img{
+     margin-left: 3%;
+     height: 700px;
+}
+
+.table-responsive{
+     margin-top: 12%;
+}
+.table-responsive2{
+     margin-top: 2%;
+     width: 80%;
+     margin-left: 10%;
+}
+
+#mba-info1{
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 80px;
+}
+.mba-info-img{
+     margin-left: 5%;
+}
+.mba-info2{
+     width: 70%;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 30px;
+     margin-left: 30%;
+     margin-top: -28%;
+}
+.mba-info3{
+     width: 70%;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 30px;
+     margin-left: 30%;
+    
+}
+
+#bestCollege{
+     font-size: 70px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       margin-left: 2%;
+      margin-top: 5%;
+}
+
+
+@media only screen and (max-width: 414px){
+     #mb4{
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          font-size: 60px;
+          margin-left: 5%;
+         
+          
+         }
+         .cdcms_section2 p{
+          font-size: 20px;
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          width: 90%;
+          margin-left: 5%;
+          margin-top: 15%;
+          
+     }
+         .cdcms_section2 {
+       margin-top: 15%;
+          
+     }
+     .cdcms_section2 img{
+          margin-left: 14%;
+          height: 400px;
+     }
+          .table-container {
+              width: 60%;
+              overflow-x: auto;
+              white-space: nowrap;
+          }
+      
+          .table1 {
+              width: 130%; 
+             
+              border-collapse: collapse;
+          }
+      
+          .table1 th, 
+          .table1 td {
+              padding: 10px;
+              text-align: left;
+              border: 1px solid #dee2e6;
+          }
+      
+          .table1 thead {
+              display: table;
+              width: 100%;
+          }
+      
+          .table1 tbody {
+              display: table;
+              width: 100%;
+          }
+      
+          .table1 tr {
+              display: table;
+              width: 100%;
+              table-layout: fixed;
+          }
+
+
+
+       
+               .table-container2 {
+                  display:none;
+               }
+           
+
+        #bestCollege{
+          font-size: 50px;
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          margin-top: 45%;
+        }
+      
+       
+          
+#mba-info1{
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 50px;
+     width:90%;
+     margin-left:5%;
+     margin-top: 45%;
+}
+.mba-info-img{
+     margin-left: 5%;
+     height: 500px;
+     margin-top: 5%;
+}
+.mba-info2{
+     width: 70%;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 20px;
+     margin-left: 10%;
+     margin-top: 13%;
+}
+.mba-info3{
+     width: 70%;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 20px;
+     margin-left: 10%;
+    
+}
+
+      }
+      
+     
+     
+
